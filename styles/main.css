@@ -14,6 +14,7 @@
 @import "service.css";
 @import "product.css";
 @import "ourteams.css";
+@import "ourteam.css";
 .container {
    max-width: 1376.9px;
    margin: 0 auto;

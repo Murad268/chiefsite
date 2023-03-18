@@ -1,16 +1,16 @@
-.product {
+.ourteam {
    padding-bottom: 160px;
 }
-.product__wrapper {
+.ourteam__wrapper {
    display: flex;
    justify-content: space-between;
    align-items: center;
-   padding-right: 154px;
+
 }
 .custom__subtitle {
    margin-bottom: 40px;
 }
-.product__desc__desc {
+.ourteam__desc__desc {
    font-family: 'Sofia Pro';
    font-style: normal;
    font-weight: 400;
@@ -19,11 +19,11 @@
    color: var(--black--green);
    width: 563px;
 }
-.product__image {
-   height: 463px;
-   width: 490px;
+.ourteam__image {
+   width: 747px;
+   height: 490px;
 }
-.product__image>img {
+.ourteam__image>img {
    width: 100%;
    height: 100%;
    object-fit: fill;
