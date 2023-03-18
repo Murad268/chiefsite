@@ -1,0 +1,34 @@
+.products__list {
+   padding-bottom: 120px;
+}
+.products__list__wrapper {
+   display: grid;
+   grid-template-columns: repeat(4, 1fr);
+   gap: 20px;
+}
+
+.products__list__box {
+   height: 344px;
+   border: 2px solid var(--white--brown);
+   border-radius: 50px;
+   padding-top: 52.01px;
+   position: relative;
+}
+.products__list__box>img {
+   display: block;
+   margin: 0 auto;
+}
+.products__list__box__text {
+   font-family: 'Sofia Pro';
+   font-style: normal;
+   font-weight: 600;
+   font-size: 28px;
+   line-height: 32px;
+   color: var(--black--green);
+   text-align: center;
+   position: absolute;
+   bottom: 42px;
+   left: 50%;
+   transform: translateX(-50%);
+   width: max-content;
+}
