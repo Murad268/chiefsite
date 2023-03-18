@@ -73,7 +73,23 @@ body {
    line-height: 34px;
    color: var(--white--brown);
 }
-
+.up {
+   height: 37.857143402099645px;
+   width: 37.857143402099645px;
+   position: fixed;
+   bottom: 96px;
+   right: 20px;
+   background: white;
+   border-radius: 100%;
+   cursor: pointer;
+   display: none;
+   z-index: 10;
+}
+.up>img {
+   width: 100%;
+   height: 100%;
+   object-fit: fill;
+}
 :root {
    --black--green: #00543D;
    --white--text: #FFF1D4;

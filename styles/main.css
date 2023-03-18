@@ -8,6 +8,9 @@
 @import "contactUs.css";
 @import "footer.css";
 @import "pageAbout.css";
+@import "history.css";
+@import "pageServices.css";
+
 .container {
    max-width: 1376.9px;
    margin: 0 auto;

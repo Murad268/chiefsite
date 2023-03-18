@@ -17,7 +17,9 @@
    column-gap: 22px;
    padding-left: 42px;
 }
-
+.whatWeDo {
+   padding-bottom: 100px;
+}
 .whoAreWe__right {
    width: 747px;
    height: 490px;
@@ -54,4 +56,9 @@
    width: 100%;
    height: 100%;
    object-fit: fill;
+}
+
+
+.about__us__custom__subtitle {
+   margin-bottom: 60px;
 }
