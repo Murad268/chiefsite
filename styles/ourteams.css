@@ -1,0 +1,49 @@
+.ourteams__list {
+   padding-bottom: 160.44px;
+}
+.ourteams__list__box {
+   height: 274.56px;
+   background: var(--black--green);
+   border-radius: 39.9075px;
+}
+
+.ourteams__list__wrapper {
+   display: grid;
+   grid-template-columns: repeat(3, 1fr);
+   column-gap: 20.64px;
+   row-gap: 20.44px;
+}
+
+.ourteams__list__box {
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   padding: 0 30px 0 31.93px;
+}
+
+.ourteams__list__box__desc {
+   font-family: 'Sofia Pro';
+   font-style: normal;
+   font-weight: 400;
+   font-size: 14px;
+   line-height: 26px;
+}
+
+.ourteams__list__box__desc__title {
+   font-family: 'Sofia Pro';
+   font-style: normal;
+   font-weight: 600;
+   font-size: 24px;
+   line-height: 26px;
+   text-align: center;
+   color: var(--white--text)
+}
+
+.ourteams__list__box__desc__body {
+   font-family: 'Sofia Pro';
+   font-style: normal;
+   font-weight: 400;
+   font-size: 14px;
+   color: var(--white--text);
+   margin-top: 21.89px;
+}
