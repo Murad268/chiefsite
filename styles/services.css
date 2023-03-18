@@ -32,15 +32,17 @@
 
 }
 .services .slick-list {
-   margin: 0 -20px;
+   
+
+   width: 100%;
  }
 .services .slider img {
    max-width: 100%;
    height: auto; 
 }
 .services .slick-slide {
-   width: 579px;
-   margin: 0 15.5px; 
+   
+   margin: 0 10px; 
    position: relative;
 }
 .slider__image__box {
@@ -67,7 +69,7 @@
 .services .slider__arrow--next, .services .slider__arrow--prev {
    position: absolute;
    top: -60.14px;
-   right: 0;
+   right: 5px;
    width: 37.86px;
    height: 37.86px;
    transform: matrix(-1, 0, 0, 1, 0, 0);
@@ -76,7 +78,9 @@
    border-radius: 100%;
    color: var(--white--text);
    cursor: pointer;
+
 }
 .services .slider__arrow--prev {
-   right: 52.14px;
+   right: 57.14px !important;
+   display: block;
 }
