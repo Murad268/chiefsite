@@ -1,4 +1,10 @@
 @import "resetAndRoot.css";
-@import "styles.css";
-@import "responsive.css";
 @import "fonts.css";
+@import "header.css";
+@import "aboutUs.css";
+
+
+.container {
+   max-width: 1376.9px;
+   margin: 0 auto;
+}

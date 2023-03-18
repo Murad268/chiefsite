@@ -109,24 +109,10 @@
    margin-top: 30px;
 }
 .header__body__footer__more {
-   font-family: 'Sofia Pro';
-   font-style: normal;
-   font-weight: 300;
-   font-size: 24px;
-   width: 202px;
-   height: 53px;
    background: var(--white--brown);
    color: var(--white--text);
-   border-radius: 70px;
-   padding: 10px 38px;
    margin-right: 30px;
 }
 .header__body__footer__videolink {
-   font-family: 'Sofia Pro';
-   font-style: normal;
-   font-weight: 300;
-   font-size: 24px;
-   line-height: 36px;
    color: var(--white--text);
-   text-decoration: underline;
 }

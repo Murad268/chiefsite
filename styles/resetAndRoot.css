@@ -12,9 +12,30 @@ a {
 h1, h2, h3, h4, h5 {
    font-weight: normal;
 }
-
+body {
+   background: var(--bg--white--brown);
+}
+.custom__button {
+   font-family: 'Sofia Pro';
+   font-style: normal;
+   font-weight: 300;
+   font-size: 24px;
+   width: 202px;
+   height: 53px;
+   border-radius: 70px;
+   padding: 10px 38px;
+}
+.custom__link {
+   font-family: 'Sofia Pro';
+   font-style: normal;
+   font-weight: 300;
+   font-size: 24px;
+   line-height: 36px;
+   text-decoration: underline;
+}
 :root {
    --black--green: #00543D;
    --white--text: #FFF1D4;
    --white--brown: #CC9964;
+   --bg--white--brown: #FFF1D4
 }

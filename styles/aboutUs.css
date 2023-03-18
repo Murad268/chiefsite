@@ -1,0 +1,53 @@
+.aboutUs {
+
+   padding-top: 144px;
+   padding-bottom: 150px;
+}
+
+.aboutUs__title {
+   font-family: 'Sofia Pro';
+   font-style: normal;
+   font-weight: 600;
+   font-size: 90px;
+   line-height: 105px;
+   color: var(--white--brown);
+}
+.aboutUs__wrapper {
+
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   padding-right: 108.04px;
+}
+.aboutUs__left {
+   width: 678px;
+}
+.aboutUs__footer {
+   margin-top: 30px;
+   padding-left: 115px;
+}
+.aboutUs__footer__more {
+   background: var(--black--green);
+   color: var(--white--text);
+   margin-right: 30px;
+}
+.aboutUs__desc {
+   padding-left: 115px;
+   color: var(--black--green);
+
+   font-family: 'Sofia Pro';
+   font-style: normal;
+   font-weight: 400;
+   font-size: 16px;
+   line-height: 24px;
+   margin-top: 30px;
+}
+.aboutUs__right {
+   height: 430px;
+   height: 495.8px;
+}
+.aboutUs__right>img {
+   width: 100%;
+   height: 100%;
+   object-fit: fill;
+}
