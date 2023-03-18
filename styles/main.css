@@ -12,6 +12,8 @@
 @import "pageServices.css";
 @import "pageProducts.css";
 @import "service.css";
+@import "product.css";
+
 .container {
    max-width: 1376.9px;
    margin: 0 auto;
