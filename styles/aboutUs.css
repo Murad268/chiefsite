@@ -1,12 +1,10 @@
 .aboutUs {
-
    padding-top: 144px;
    padding-bottom: 150px;
 }
 
 
 .aboutUs__wrapper {
-
    display: flex;
    justify-content: space-between;
    align-items: center;

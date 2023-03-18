@@ -55,6 +55,24 @@ body {
    color: var(--black--green);
    text-decoration-line: underline;
 }
+.page {
+   font-family: 'Sofia Pro';
+   font-style: normal;
+   font-weight: 400;
+   font-size: 90px;
+   line-height: 105px;
+   text-align: center;
+   color: var(--white--text);
+   margin-top: 84px;
+}
+.custom__subtitle {
+   font-family: 'Sofia Pro';
+   font-style: normal;
+   font-weight: 600;
+   font-size: 60px;
+   line-height: 34px;
+   color: var(--white--brown);
+}
 
 :root {
    --black--green: #00543D;

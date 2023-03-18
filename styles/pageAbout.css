@@ -1,0 +1,57 @@
+.page__link a {
+   font-family: 'Sofia Pro';
+   font-style: normal;
+   font-weight: normal;
+   font-size: 16px;
+   line-height: 24px;
+   color: var(--black--green);
+}
+
+.actived__link {
+   font-weight: 700;
+}
+.page__link .container {
+   display: flex;
+   margin: 30px 0 91px 0;
+   align-items: center;
+   column-gap: 22px;
+   padding-left: 42px;
+}
+
+.whoAreWe__right {
+   width: 747px;
+   height: 490px;
+}
+.whoAreWe__right>img {
+   width: 100%;
+   height: 100%;
+   object-fit: fill;
+}
+.whoAreWe__wrapper, .whatWeDo__wrapper {
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+}
+.whatWeDo__wrapper {
+   margin-top: 80px;
+}
+.whoAreWe__left__desc, .whatWeDo__right__desc {
+   margin-top: 40px;
+   width: 563px;
+   font-family: 'Sofia Pro';
+   font-style: normal;
+   font-weight: 400;
+   font-size: 16px;
+   line-height: 24px;
+   color: var(--black--green);
+}
+
+.whatWeDo__left {
+   width: 736px;
+   height: 492px;
+}
+.whatWeDo__left>img {
+   width: 100%;
+   height: 100%;
+   object-fit: fill;
+}
