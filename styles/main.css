@@ -15,6 +15,8 @@
 @import "product.css";
 @import "ourteams.css";
 @import "ourteam.css";
+@import "contact.css";
+@import "privacy.css";
 .container {
    max-width: 1376.9px;
    margin: 0 auto;
