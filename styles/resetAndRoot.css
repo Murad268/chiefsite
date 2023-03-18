@@ -25,13 +25,25 @@ body {
    border-radius: 70px;
    padding: 10px 38px;
 }
-.custom__link {
+.custom__links {
    font-family: 'Sofia Pro';
    font-style: normal;
    font-weight: 300;
    font-size: 24px;
    line-height: 36px;
    text-decoration: underline;
+}
+
+
+.custom__title {
+   font-family: 'Sofia Pro';
+   font-style: normal;
+   font-weight: 600;
+   font-size: 90px;
+   line-height: 105px;
+   color: var(--white--brown);
+   text-decoration: none !important;
+   border: none;
 }
 :root {
    --black--green: #00543D;

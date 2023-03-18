@@ -4,14 +4,7 @@
    padding-bottom: 150px;
 }
 
-.aboutUs__title {
-   font-family: 'Sofia Pro';
-   font-style: normal;
-   font-weight: 600;
-   font-size: 90px;
-   line-height: 105px;
-   color: var(--white--brown);
-}
+
 .aboutUs__wrapper {
 
    display: flex;

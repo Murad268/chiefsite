@@ -1,0 +1,16 @@
+.services .custom__links {
+   text-decoration: none;
+}
+.services__top {
+   width: 447px;
+}
+
+.services__desc {
+   font-family: 'Sofia Pro';
+   font-style: normal;
+   font-weight: 400;
+   font-size: 16px;
+   line-height: 24px;
+   color: var(--black--green);
+   text-decoration: none;
+}
