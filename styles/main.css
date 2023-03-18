@@ -5,6 +5,7 @@
 @import "services.css";
 @import "products.css";
 @import "team.css";
+@import "contactUs.css";
 .container {
    max-width: 1376.9px;
    margin: 0 auto;

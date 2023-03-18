@@ -71,3 +71,8 @@
 .team__slider__arrow--prev {
    right: 57.14px !important;
 }
+
+.team .see__link {
+   text-align: right;
+   margin-top: 31.44px;
+}

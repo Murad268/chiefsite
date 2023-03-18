@@ -46,6 +46,16 @@ body {
    text-decoration: none !important;
    border: none;
 }
+.see__link {
+   font-family: 'Sofia Pro';
+   font-style: normal;
+   font-weight: 300;
+   font-size: 24px;
+   line-height: 36px;
+   color: var(--black--green);
+   text-decoration-line: underline;
+}
+
 :root {
    --black--green: #00543D;
    --white--text: #FFF1D4;
