@@ -1,0 +1,29 @@
+.service {
+   padding-bottom: 160px;
+}
+.service__wrapper {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+}
+.custom__subtitle {
+   margin-bottom: 40px;
+}
+.service__desc__desc {
+   font-family: 'Sofia Pro';
+   font-style: normal;
+   font-weight: 400;
+   font-size: 16px;
+   line-height: 24px;
+   color: var(--black--green);
+   width: 563px;
+}
+.service__image {
+   width: 747px;
+   height: 490px;
+}
+.service__image>img {
+   width: 100%;
+   height: 100%;
+   object-fit: fill;
+}

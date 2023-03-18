@@ -11,6 +11,7 @@
 @import "history.css";
 @import "pageServices.css";
 @import "pageProducts.css";
+@import "service.css";
 .container {
    max-width: 1376.9px;
    margin: 0 auto;
