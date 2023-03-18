@@ -1,0 +1,34 @@
+.products__wrapper {
+   display: grid;
+   grid-template-columns: repeat(4, 1fr);
+   gap: 20px;
+   margin-top: 40px;
+}
+.products__item {
+   border: 2px solid var(--border--wtite--brown);
+   border-radius: 50px;
+   height: 344px;
+
+}
+.products__item>img {
+   display: block;
+   margin: 0 auto;
+   margin-top: 47px;
+}
+.products__item {
+   position: relative;
+}
+.products__item__text {
+   color: var(--black--green);
+   font-family: 'Sofia Pro';
+   font-style: normal;
+   font-weight: 600;
+   font-size: 28px;
+   line-height: 32px;
+   text-align: center;
+   position: absolute;
+   bottom: 42px;
+   left: 50%;
+   width: max-content;
+   transform: translateX(-50%);
+}

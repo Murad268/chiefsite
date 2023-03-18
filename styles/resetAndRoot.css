@@ -49,5 +49,6 @@ body {
    --black--green: #00543D;
    --white--text: #FFF1D4;
    --white--brown: #CC9964;
-   --bg--white--brown: #FFF1D4
+   --bg--white--brown: #FFF1D4;
+   --border--wtite--brown: #CC9964;
 }

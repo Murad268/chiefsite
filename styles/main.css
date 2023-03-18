@@ -3,7 +3,7 @@
 @import "header.css";
 @import "aboutUs.css";
 @import "services.css";
-
+@import "products.css";
 .container {
    max-width: 1376.9px;
    margin: 0 auto;
