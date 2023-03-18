@@ -1,0 +1,20 @@
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+ul, ol {
+   list-style-type: none;
+}
+a {
+   text-decoration: none;
+}
+h1, h2, h3, h4, h5 {
+   font-weight: normal;
+}
+
+:root {
+   --black--green: #00543D;
+   --white--text: #FFF1D4;
+   --white--brown: #CC9964;
+}
