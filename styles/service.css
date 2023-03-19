@@ -10,12 +10,6 @@
    margin-bottom: 40px;
 }
 .service__desc__desc {
-   font-family: 'Sofia Pro';
-   font-style: normal;
-   font-weight: 400;
-   font-size: 16px;
-   line-height: 24px;
-   color: var(--black--green);
    width: 563px;
 }
 .service__image {
