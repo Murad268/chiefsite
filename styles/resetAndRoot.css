@@ -112,6 +112,15 @@ body {
    line-height: 24px;
    color: var(--black--green);
 }
+@media(max-width: 468px) {
+   .page {
+      font-size: 40px;
+      line-height: 40px;
+   }
+   .custom__subtitle {
+      font-size: 44px;
+   }
+}
 :root {
    --black--green: #00543D;
    --white--text: #FFF1D4;

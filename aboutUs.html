@@ -123,7 +123,7 @@
                         <div class="slider__desc__img">
                            <img src="../assets/images/aboutus/Rectangle 67 (1).png" alt="">
                         </div>
-                        <div class="custom__text">
+                        <div class="custom__text ">
                            Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque
                            laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis
                         </div>
@@ -259,6 +259,11 @@
 
    <script src="./script/script.js"></script>
    <script>
+      if(window.innerWidth>468) {
+         document.querySelector(".whoAreWe__right img").src = './assets/images/aboutus/mini.png';
+         document.querySelector(".whatWeDo__left img").src = './assets/images/aboutus/mini2.png';
+      }
+
       const inner = document.querySelector('.history__slide__inner');
       let pos = 0;
       let startX = 0;
