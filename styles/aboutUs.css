@@ -42,3 +42,143 @@
    height: 100%;
    object-fit: fill;
 }
+
+.carousel .carousel {
+   width: 100%;
+   height: 400px;
+   position: relative;
+   overflow: hidden;
+ }
+ 
+ .carousel .slides {
+   display: flex;
+   position: absolute;
+   top: 0;
+   left: 0;
+   width: max-content;
+   height: 100%;
+   transition: all 0.3s;
+ }
+ 
+ .carousel .slide {
+   width: 464px;
+   height: 100%;
+   margin-right: 20px;
+   position: relative;
+ }
+ 
+ .carousel.slide img {
+   width: 100%;
+   height: 100%;
+   object-fit: cover;
+ }
+
+ .slider__desc__img {
+   width: 287px;
+   height: 151px;
+ }
+ .slider__desc__img>img {
+   width: 100%;
+   height: 100%;
+   object-fit: fill;
+ }
+ .history__slide__inner {
+   display: flex;
+   transition: 0.3s;
+ }
+ .history__slide {
+   width: 520px;
+   height: 1000px;
+
+ }
+ .slide__wrapper {
+   display: flex;
+   align-items: flex-start;
+ }
+ .history__slide__inner {
+   width: max-content;
+ }
+ .car__2006 {
+   position: relative;
+   padding-bottom: 50px;
+ }
+ .car__2006__hr {
+   position: absolute;
+   top: 397px;
+   right: 0;
+   width: 80px;
+   height: 3px;
+   background-color:  #CC9964;;
+ }
+ .car__2006 .slider__date {
+   margin-top: 60px;
+   margin-right: -20px;
+   margin-left: -37px;
+ }
+ .history .custom__text {
+   margin-top: 20px;
+   padding-right: 110px;
+ }
+ .car__2006 {
+   display: flex;
+   align-items: center
+ }
+ .car__2009__2011 {
+   position: relative;
+ }
+ .car__2009__top {
+   
+ }
+
+ .car__2009__top  .slider__date{
+   position: absolute;
+   top: 90px;
+   left: -7px;
+ }
+ .car__2009__top .car__2009__2011__top__desc {
+   position: absolute;
+   right: 110px;
+   top: 45px;
+   width: 287px;
+ }
+ .car__2009__top .car__2009__2011__top__desc .custom__text {
+   padding: 0;
+ }
+
+ .car__2009__2011__bottom .car__2009__2011__top__desc {
+   position: absolute;
+   width: 287px;
+   bottom: 220px;
+   right: 0;
+ }
+ .car__2009__2011__bottom .custom__text {
+   padding: 0;
+ }
+
+ .car__2009__2011__bottom .slider__date {
+   position: absolute;
+   bottom: 410px;
+   right: 290px;
+ }
+
+ .car__2009__top {
+   border-bottom: 3px solid #CC9964;
+   border-left: 3px solid #CC9964;
+   height: 400px;
+ }
+ .car__2009__top:last-child {
+   border-right: 3px solid #CC9964;
+ }
+
+ .car__2009__2011__hr {
+   position: absolute;
+   width: 3px;
+   height: 235px;
+   left: 110px;
+   top: 400px;
+   background-color:  #CC9964;;
+ }
+ .history__slider__wrapper {
+   width: 100%;
+   overflow-x: hidden;
+ }

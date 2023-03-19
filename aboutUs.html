@@ -97,7 +97,116 @@
    <section class="history">
       <div class="container">
          <div class="custom__subtitle about__us__custom__subtitle">Our history</div>
+         <div class="history__slider__wrapper">
+            <div class="history__slide__inner">
+               <div class="history__slide car__2006">
+                  <div class="slide__wrapper">
+                     <div class="slider__date">2006</div>
+                     <div class="slider__desc">
+                        <div class="slider__desc__img">
+                           <img src="./assets/images/aboutus/Rectangle 67 (1).png" alt="">
+                        </div>
+                        <div class="custom__text">
+                           Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis 
+                        </div>
+                     </div>
+                  </div>
+                  <div class="car__2006__hr"></div>
+               </div>
+               <div class="history__slide car__2009__2011">
+                  <div class="car__2009__2011__hr"></div>
+                  <div class="car__2009__top">
+                     <div class="slider__date">
+                        2009
+                     </div>
+                     <div class="car__2009__2011__top__desc">
+                        <div class="slider__desc__img">
+                           <img src="./assets/images/aboutus/Rectangle 67 (2).png" alt="">
+                        </div>
+                        <div class="custom__text">
+                           Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis 
+                        </div>
+                     </div>
+                  </div>
+                  <div class="car__2009__2011__bottom">
+                     <div class="slider__date">
+                        2011
+                     </div>
+                     <div class="car__2009__2011__top__desc">
+                        <div class="slider__desc__img">
+                           <img src="./assets/images/aboutus/Rectangle 67 (3).png" alt="">
+                        </div>
+                        <div class="custom__text">
+                           Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis 
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               <div class="history__slide car__2009__2011">
+                  <div class="car__2009__2011__hr"></div>
+                  <div class="car__2009__top">
+                     <div class="slider__date">
+                        2012
+                     </div>
+                     <div class="car__2009__2011__top__desc">
+                        <div class="slider__desc__img">
+                           <img src="./assets/images/aboutus/Rectangle 67 (4).png" alt="">
+                        </div>
+                        <div class="custom__text">
+                           Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis 
+                        </div>
+                     </div>
+                  </div>
+                  <div class="car__2009__2011__bottom">
+                     <div class="slider__date">
+                        2014
+                     </div>
+                     <div class="car__2009__2011__top__desc">
+                        <div class="slider__desc__img">
+                           <img src="./assets/images/aboutus/Rectangle 67.png" alt="">
+                        </div>
+                        <div class="custom__text">
+                           Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis 
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               <div class="history__slide car__2009__2011">
+                  <div class="car__2009__2011__hr"></div>
+                  <div class="car__2009__top">
+                     <div class="slider__date">
+                        2015
+                     </div>
+                     <div class="car__2009__2011__top__desc">
+                        <div class="slider__desc__img">
+                           <img src="./assets/images/aboutus/Rectangle 67 (2).png" alt="">
+                        </div>
+                        <div class="custom__text">
+                           Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis 
+                        </div>
+                     </div>
+                  </div>
+                  <div class="car__2009__2011__bottom">
+                     <div class="slider__date">
+                        2017
+                     </div>
+                     <div class="car__2009__2011__top__desc">
+                        <div class="slider__desc__img">
+                           <img src="./assets/images/aboutus/Rectangle 67 (2).png" alt="">
+                        </div>
+                        <div class="custom__text">
+                           Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis 
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
       </div>
+
+     
+
+
    </section>
    <footer class="footer">
       <div class="container">
@@ -123,8 +232,91 @@
       <hr>
       <div class="footer__copirate">©2022 All Right Reserved. Developed by Webcoder</div>
    </footer>
+    
    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+ 
    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
-   <script src="./script/script.js"></script>
+   <script>
+
+const inner = document.querySelector('.history__slide__inner');
+let pos = 0; // текущая позиция
+let startX = 0; // начальная точка касания
+let startY = 0;
+let deltaX = 0; // расстояние, пройденное пальцем
+let isSwiping = false; // флаг свайпа
+
+inner.addEventListener('touchstart', function(event) {
+  startX = event.touches[0].clientX;
+  startY = event.touches[0].clientY;
+  isSwiping = true;
+});
+
+inner.addEventListener('touchmove', function(event) {
+  if (isSwiping) {
+    deltaX = event.touches[0].clientX - startX;
+    const deltaY = event.touches[0].clientY - startY;
+
+    // свайп влево или вправо
+    if (Math.abs(deltaX) > Math.abs(deltaY)) {
+      event.preventDefault(); // отменить стандартное поведение браузера
+      inner.style.transform = `translateX(${pos + deltaX}px)`;
+    }
+  }
+});
+
+inner.addEventListener('touchend', function(event) {
+  if (isSwiping) {
+    isSwiping = false;
+
+    // сохранить позицию после завершения свайпа
+    pos += deltaX;
+
+    // вернуться в начало после достижения конца
+    if (pos > 0) {
+      pos = 0;
+      inner.style.transform = `translateX(${pos}px)`;
+    } else if (pos < -inner.offsetWidth + window.innerWidth) {
+      pos = -inner.offsetWidth + window.innerWidth;
+      inner.style.transform = `translateX(${pos}px)`;
+    }
+  }
+});
+
+// обработка свайпа мышью
+inner.addEventListener('mousedown', function(event) {
+  startX = event.clientX;
+  isSwiping = true;
+  inner.style.cursor = 'grabbing';
+});
+
+inner.addEventListener('mousemove', function(event) {
+  if (isSwiping) {
+    deltaX = event.clientX - startX;
+    inner.style.transform = `translateX(${pos + deltaX}px)`;
+  }
+});
+
+inner.addEventListener('mouseup', function(event) {
+  if (isSwiping) {
+    isSwiping = false;
+    pos += deltaX;
+
+    if (pos > 0) {
+      pos = 0;
+      inner.style.transform = `translateX(${pos}px)`;
+    } else if (pos < -inner.offsetWidth + window.innerWidth) {
+      pos = -inner.offsetWidth + window.innerWidth;
+      inner.style.transform = `translateX(${pos}px)`;
+    }
+
+    inner.style.cursor = 'grab';
+  }
+});
+
+// обработка выхода курсора за пред
+
+
+
+   </script>
 </body>
 </html>
