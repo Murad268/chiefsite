@@ -41,4 +41,26 @@
    justify-content: space-between;
    align-items: center;
 }
-
+.min__see__link {
+   display: none;
+}
+@media(max-width: 468px) {
+   .products__wrapper {
+      grid-template-columns: repeat(1, 1fr);
+   }
+   .products__item:nth-child(4), .products__item:nth-child(5),.products__item:nth-child(6),.products__item:nth-child(7),.products__item:nth-child(8) {
+      display: none;
+   }
+   .products__title {
+      font-size: 44px;
+      line-height: 50px;
+   }
+   .see__link {
+      display: none;
+   }
+   .min__see__link {
+      display: block;
+      text-align: center;
+      margin-top: 28.12px;
+   }
+}

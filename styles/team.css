@@ -1,39 +1,18 @@
-
-.team .slider {
-   width: 100%;
-}
 .team__slider {
    margin-top: 60px;
 }
-.team .slick-list {
-
- }
-.team .slider img {
-   width: 141px !important;
-   height: 200px !important;
-   object-fit: contain !important;
+.team__slider__box {
+   height: 274.56px;
+   border-radius: 39.9075px;
+   background: var(--black--green);
+   padding-top: 26px;
+   padding-left: 31.93px;
+   padding-right: 25.26px;
 }
 .team .slick-slide {
-   background: var(--black--green);
-   margin: 0 10.32px; 
-   position: relative;
-   border-radius: 39.9075px;
-   height: 250.56px;
-   padding-top: 20px;
-   padding-right: 20px;
+   margin: 0 10.32px;
 }
-
-.team__slider__wrapper {
-   display: flex;
-   align-items: center;
-}
-
-.team__slider__desc {
-   padding: 0 36px;
-   
-}
-
-.team__slider__desc__title {
+.team__slider__box__desc__title {
    font-family: 'Sofia Pro';
    font-style: normal;
    font-weight: 600;
@@ -42,18 +21,17 @@
    color: var(--white--text);
    margin-bottom: 21.89px;
 }
-
-.team__slider__desc__body {
+.team__slider__box__desc__body {
    font-family: 'Sofia Pro';
    font-style: normal;
    font-weight: 400;
    font-size: 14px;
-   line-height: 26px;
    color: var(--white--text);
-   width: 184.37px;
 }
-
-
+.team__slider__box__wrapper {
+   display: flex;
+   align-items: center;
+}
 .team__slider__arrow--next, .team__slider__arrow--prev {
    position: absolute !important;
    top: -60.14px !important;
@@ -74,4 +52,46 @@
 .team .see__link {
    text-align: right;
    margin-top: 31.44px;
+}
+
+@media(max-width: 468px) {
+   .team__title {
+      font-weight: 600;
+      font-size: 44px;
+      line-height: 50px;
+   }
+   .team__slider__box__desc__title {
+      font-size: 16px;
+      line-height: 16px;
+      margin-bottom: 13.84px;
+   }
+   .team__slider__box__desc__body {
+      font-size: 10px;
+      line-height: 16px;
+      width: 124px;
+   }
+   .team__slider__box {
+      padding-top: 0;
+      height: 194px;
+      padding-right: 0;
+   }
+   .team__slider__box__image {
+      width: 159px;
+      height: 204px;
+   }
+   .team__slider__box__image>img {
+      width: 100%;
+      height: 100%;
+      object-fit: fill;
+   }
+   .team {
+      padding-bottom: 90px;
+   }
+   .see__link {
+      display: block;
+      color: var(--black--green);
+      text-align: center;
+      width: max-content;
+      margin: 0 auto;
+   }
 }

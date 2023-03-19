@@ -48,3 +48,24 @@
    text-align: center;
    margin-top: 15.01px;
 }
+
+@media(max-width: 468px) {
+   .footer__wrapper {
+      flex-direction: column;
+      row-gap: 56px;
+      margin-top: 27px;
+   }
+   .footer__mini {
+      flex-direction: column;
+      row-gap: 15px;
+   
+   }
+   .footer__mini>a {
+      font-size: 16px;
+      line-height: 24px;
+   }
+   .footer__copirate {
+      font-size: 11px;
+      line-height: 150%;
+   }
+}
