@@ -18,6 +18,9 @@
    display: block;
    margin: 0 auto;
 }
+.mini__link {
+   display: none;
+}
 .products__list__box__text {
    font-family: 'Sofia Pro';
    font-style: normal;
@@ -31,4 +34,28 @@
    left: 50%;
    transform: translateX(-50%);
    width: max-content;
+}
+@media(max-width: 468px) {
+   .products__list__wrapper {
+      grid-template-columns: repeat(1, 1fr);
+   }
+   .products__list__box {
+      display: none;
+   }
+   .products__list__box:nth-child(1),.products__list__box:nth-child(2),.products__list__box:nth-child(3),.products__list__box:nth-child(4),.products__list__box:nth-child(5),.products__list__box:nth-child(6) {
+      display: block;
+   } 
+   .mini__link {
+      display: block;
+      font-family: 'Sofia Pro';
+      font-style: normal;
+      font-weight: 300;
+      font-size: 24px;
+      line-height: 36px;
+      text-align: center;
+      color: var(--black--green);
+      text-decoration: underline;
+      width: max-content;
+      margin: 40.12px auto 0 auto;
+   }
 }

@@ -21,3 +21,30 @@
    height: 100%;
    object-fit: fill;
 }
+@media(max-width: 468px) {
+   .service {
+      padding-bottom: 100px;
+   }
+   .service__wrapper {
+      flex-direction: column;
+      row-gap: 25px;
+   }
+   .service__title {
+      font-size: 44px;
+      line-height: 50px;
+   }
+   .service__desc__desc {
+      font-size: 16px;
+      line-height: 24px;
+      width: 100%;
+   }
+   .service__image {
+      width: 100%;
+      height: 254px;
+   }
+   .service__image>img {
+      width: 100%;
+      height: 100%;
+      object-fit: fill;
+   }
+}

@@ -112,6 +112,9 @@ body {
    line-height: 24px;
    color: var(--black--green);
 }
+.back {
+   display: none;
+}
 @media(max-width: 468px) {
    .page {
       font-size: 40px;
@@ -120,6 +123,19 @@ body {
    .custom__subtitle {
       font-size: 44px;
    }
+   .page__link > .container>a, .page__link > .container>img {
+      font-size: 16px;
+      line-height: 24px;
+      display: none;
+   }
+   .page__link > .container>a:last-child {
+      display: block;
+   }
+   .back {
+      display: block !important;
+      padding-top: 2px;
+   }
+  
 }
 :root {
    --black--green: #00543D;

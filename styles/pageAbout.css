@@ -187,5 +187,8 @@
     height: 100%;
     object-fit: fill;
   }
-  
+  .page__link > .container {
+    margin-bottom: 40px;
+   
+  }
  }
