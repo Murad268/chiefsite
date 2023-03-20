@@ -54,9 +54,10 @@
    .products__title {
       font-size: 44px;
       line-height: 50px;
+      margin-left: 0 !important;
    }
    .see__link {
-      display: none;
+      display: none !important;
    }
    .min__see__link {
       display: block;

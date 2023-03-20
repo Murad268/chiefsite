@@ -59,6 +59,7 @@
       font-weight: 600;
       font-size: 44px;
       line-height: 50px;
+      margin-left: 0 !important;
    }
    .team__slider__box__desc__title {
       font-size: 16px;
@@ -93,5 +94,8 @@
       text-align: center;
       width: max-content;
       margin: 0 auto;
+   }
+   .team .slick-slide {
+      margin: 0 3px !important;
    }
 }
