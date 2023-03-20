@@ -189,6 +189,23 @@
   }
   .page__link > .container {
     margin-bottom: 40px;
-   
+    
   }
+  .whatWeDo__left>img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
  }
+}
+
+@media(max-width: 300px) {
+ .aboutUs__title {
+    font-size: 30px;
+ }
+ .whatWeDo>.container {
+  padding-top: 0 !important;
+ }
+ .whoAreWe>.container {
+  padding-bottom: 0;
+ }
+}

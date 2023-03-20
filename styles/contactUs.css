@@ -66,14 +66,33 @@
 .contactUs__minimap {
    display: none;
 }
-@media(max-width: 468px) {
-   .contactUs .container {
-      width: 100%;
+@media(max-width: 992px) {
+   .custom__title {
+      font-size: 60px;
+      margin-left: 20px;
    }
    .contactUs__wrapper {
       flex-direction: column;
       row-gap: 60px;
+      align-items: stretch;
+      padding: 0;
    }
+   .contactUs__contacts {
+      padding: 20px;
+      width: max-content;
+      margin: 0;
+   }
+   .contactUs__map {
+      width: 100%;
+   }
+}
+@media(max-width: 468px) {
+   .contactUs .container {
+      width: 100%;
+      padding: 0 !important;
+   }
+   
+ 
    .contactUs__contacts {
       width: 100%;
       padding: 0;
@@ -93,6 +112,7 @@
    .contactUs__minimap {
       display: block;
       width: 100%;
+      padding: 0;
       height: 374px;
    }
    .contactUs__minimap>img {
@@ -102,5 +122,11 @@
    }
    .contactUs {
       padding-bottom: 0;
+   }
+}
+@media(max-width: 320px) {
+   .contactUs__minimap {
+  
+      height: 274px;
    }
 }

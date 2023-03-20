@@ -140,6 +140,18 @@ body {
    }
   
 }
+@media(max-width: 320px) {
+   .custom__subtitle {
+      font-size: 30px !important;
+      margin-bottom: 0 !important;
+   }
+   .whoAreWe__left__desc {
+      margin-top: 20px !important;
+   }
+   .page {
+      font-size: 30px;
+   }
+}
 :root {
    --black--green: #00543D;
    --white--text: #FFF1D4;

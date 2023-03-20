@@ -44,6 +44,11 @@
 .min__see__link {
    display: none;
 }
+@media(max-width: 992px) {
+   .products__wrapper {
+      grid-template-columns: repeat(2, 1fr) !important;
+   }
+}
 @media(max-width: 468px) {
    .products__wrapper {
       grid-template-columns: repeat(1, 1fr);
@@ -63,5 +68,23 @@
       display: block;
       text-align: center;
       margin-top: 28.12px;
+   }
+}
+
+@media(max-width: 320px) {
+   .products__list__box {
+      height: 291.88px !important;
+   }
+   .products__list__box>img {
+      width: 80%;
+      height: 162.08px;
+      object-fit: contain;
+   }
+   .products__list .container {
+      padding: 0 10px !important;
+   }
+   .products__list__box__text {
+      bottom: 20px !important;
+      font-size: 25px !important;
    }
 }

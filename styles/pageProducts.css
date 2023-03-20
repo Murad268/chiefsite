@@ -35,6 +35,11 @@
    transform: translateX(-50%);
    width: max-content;
 }
+@media(max-width: 992px) {
+   .products__list__wrapper {
+      grid-template-columns: repeat(2, 1fr) !important;
+   }
+}
 @media(max-width: 468px) {
    .products__list__wrapper {
       grid-template-columns: repeat(1, 1fr);

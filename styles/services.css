@@ -34,9 +34,12 @@
    height: auto; 
 }
 .services .slick-slide {
-   
-   margin: 0 10px; 
    position: relative;
+   width: 100%;
+}
+.services .slick-slide>img {
+   width: 100%;
+   object-fit: fill;
 }
 .slider__image__box {
    position: absolute;
@@ -77,6 +80,21 @@
    right: 57.14px !important;
    display: block;
 }
+@media(max-width: 992px) {
+   .services__title {
+      font-size: 60px;
+      margin-left: 20px;
+   }
+   .services__desc {
+      padding: 20px;
+   }
+   .services__button {
+      padding-left: 20px;
+   }
+   .services .slick-slide {
+      margin: 10px;
+   }
+}
 @media(max-width: 468px) {
    .services__title {
       font-size: 44px;
@@ -88,6 +106,7 @@
       font-size: 16px;
       line-height: 24px;
       width: 100%;
+      padding: 0;
    }
    .services__top {
       width: 100%;
