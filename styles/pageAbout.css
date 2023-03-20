@@ -254,7 +254,7 @@
   .whatWeDo__left>img {
     width: 100%;
     height: 100%;
-    object-fit: contain;
+    object-fit: fill;
  }
  .history__desc__img, .box__sectype__top__desc__img, .box__thtype__top__desc__img, .box__sectype__bottom__desc__img, .box__thtype__bottom__desc__img {
     width: 146.45px;
