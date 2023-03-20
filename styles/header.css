@@ -198,7 +198,7 @@
       width: 100%;
    }
    .header__body {
-      /* margin-top: 70px; */
+
       padding: 0;
       width: max-content;
       margin: 70px auto 0 auto !important;
@@ -239,7 +239,7 @@
 }
 
 @media(max-width: 668px) {
-
+   
    .header__body__title br {
       display: block;
    }
@@ -264,7 +264,9 @@
       width: 271px;
    }
    .header__body {
-      padding: 0;
+      padding: 0 !important;
+      margin: 0 !important;
+      margin-top: 64px !important;
       padding-top: 64px;
    }
 

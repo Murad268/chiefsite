@@ -26,7 +26,7 @@
 }
 .services .slick-list {
    
-
+  
    width: 100%;
  }
 .services .slider img {
@@ -36,6 +36,7 @@
 .services .slick-slide {
    position: relative;
    width: 100%;
+   margin: 0 10px;
 }
 .services .slick-slide>img {
    width: 100%;
@@ -92,7 +93,7 @@
       padding-left: 20px;
    }
    .services .slick-slide {
-      margin: 10px;
+      margin: 10px ;
    }
 }
 @media(max-width: 660px) {
