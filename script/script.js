@@ -30,3 +30,19 @@ up.addEventListener('click', () => {
 	const start = performance.now()
 	window.requestAnimationFrame(step)
 })
+
+
+function openMenu(triggerSel, menuSel, activeClass, closeSel) {
+	const trigger = document.querySelector(triggerSel),
+			close = document.querySelector(closeSel),
+			menu = document.querySelector(menuSel);
+
+	trigger.addEventListener("click", () => {
+		menu.classList.add(activeClass);
+	});
+	close.addEventListener("click", () => {
+		menu.classList.remove(activeClass);
+	})
+}
+
+openMenu(".header__hamburger", ".menu", "menu__active", ".menu i")

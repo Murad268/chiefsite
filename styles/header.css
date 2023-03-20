@@ -148,6 +148,47 @@
 .header__img {
    display: none;
 }
+.menu {
+   top: 0;
+   left: 0;
+   width: 100%;
+   transform-origin: top;
+   transform: scaleY(0);
+   transition: transform 0.1s ease-out;
+   position: absolute;
+   background: var(--black--green);
+   padding-top: 15px;
+}
+.menu i {
+   position: absolute;
+   top: 20px;
+   right: 20px;
+   font-size: 20px;
+   cursor: pointer;
+   color: var(--white--text)
+}
+.menu__active {
+   position: fixed;
+   height: auto;
+   transform: scaleY(1);
+   transition: transform 0.5s ease-out;
+   z-index: 15;
+}
+.menu>ul>li>a {
+   font-family: 'Sofia Pro';
+   font-style: normal;
+   font-weight: 400;
+   font-size: 16px;
+   line-height: 16px;
+   color: var(--white--text)
+}
+.menu>ul>li {
+   padding: 6px 10px;
+}
+
+
+
+
 
 @media(max-width: 468px) {
    .container {
