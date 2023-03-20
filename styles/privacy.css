@@ -5,3 +5,12 @@
    width: 913px;
    margin: 0 auto;
 }
+
+@media(max-width: 468px) {
+   .privacy__wrapper {
+      width: 100%;
+   }
+   .privacy {
+      padding-bottom: 100px;
+   }
+}

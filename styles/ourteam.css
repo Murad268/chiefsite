@@ -28,3 +28,24 @@
    height: 100%;
    object-fit: fill;
 }
+
+@media(max-width: 468px) {
+   .ourteam .custom__subtitle {
+      font-size: 44px;
+      line-height: 50px;
+   }
+   .ourteam__wrapper {
+      flex-direction: column;
+      row-gap: 25px;
+   }
+   .ourteam__desc__desc {
+      width: 100%;
+   }
+   .ourteam__image {
+      width: 100%;
+      height: 254px;
+   }
+   .ourteam {
+      padding-bottom: 100px;
+   }
+}

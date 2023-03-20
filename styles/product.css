@@ -22,3 +22,28 @@
    height: 100%;
    object-fit: fill;
 }
+
+@media(max-width: 468px) {
+   .product .custom__subtitle {
+      font-size: 44px;
+      line-height: 50px;
+   }
+   .product__desc__desc {
+      width: 100%;
+   }
+   .product__wrapper {
+      padding: 0 !important;
+      flex-direction: column;
+      row-gap: 44.24px;
+   }
+   .product__image {
+      height: 226.63px;
+      width: 100%;
+   }
+   .product__image>img {
+      object-fit: contain;
+   }
+   .product {
+      padding-bottom: 123.37px;
+   }
+}

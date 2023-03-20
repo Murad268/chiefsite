@@ -135,6 +135,9 @@ body {
       display: block !important;
       padding-top: 2px;
    }
+   .page__link>.container {
+      padding-left: 20px !important;
+   }
   
 }
 :root {
