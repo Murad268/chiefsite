@@ -66,6 +66,14 @@
 .contactUs__minimap {
    display: none;
 }
+@media(max-width: 1200px) {
+   .contactUs__contacts {
+    
+      width: max-content;
+      margin: 0;
+      padding: 0 !important;
+   }
+}
 @media(max-width: 992px) {
    .custom__title {
       font-size: 60px;
@@ -78,9 +86,7 @@
       padding: 0;
    }
    .contactUs__contacts {
-      padding: 20px;
-      width: max-content;
-      margin: 0;
+     padding-left: 127px !important;
    }
    .contactUs__map {
       width: 100%;
@@ -96,7 +102,7 @@
    .contactUs__contacts {
       width: 100%;
       padding: 0;
-      padding-left: 23px;
+      padding-left: 23px !important;
    }
    .custom__title {
       font-size: 44px;

@@ -29,23 +29,30 @@
    object-fit: fill;
 }
 @media(max-width: 992px) {
-   .ourteam .custom__subtitle {
-      margin-left: 20px;
+   .ourteam__wrapper {
+      align-items: stretch
    }
+
    .ourteam__wrapper {
       flex-direction: column;
       row-gap: 35px;
    }
    .ourteam__desc__desc {
       width: 100%;
-      padding-left: 20px;
+
+   }
+   .ourteam .container {
+      padding: 10px;
+   }
+   .ourteam__image {
+      width: 100%;
    }
 }
 @media(max-width: 468px) {
    .ourteam .custom__subtitle {
       font-size: 44px;
       line-height: 50px;
-      margin-left: 0;
+      padding-left: 0;
    }
    .ourteam__wrapper {
       row-gap: 25px;

@@ -34,7 +34,7 @@
    font-weight: 600;
    font-size: 24px;
    line-height: 26px;
-   text-align: center;
+
    color: var(--white--text)
 }
 
@@ -46,17 +46,27 @@
    color: var(--white--text);
    margin-top: 21.89px;
 }
-@media(max-width: 992px) {
-   .ourteams__list__wrapper {
-      grid-template-columns: repeat(2, 1fr);
+@media(max-width: 1300px) {
+   .ourteams__list__box__image {
+      display: none;
+   }
+   .ourteams__list__box {
+      padding: 0 ;
+      display: flex;
+      justify-content: center;
+      align-items: center
    }
    .ourteams__list__box {
       padding: 0 0 0 20px;
    }
-   .ourteams__list__box__image {
-      width: 174px;
-      height: 232px;
+}
+@media(max-width: 992px) {
+
+   .ourteams__list__wrapper {
+      grid-template-columns: repeat(2, 1fr);
    }
+ 
+
 }
 @media(max-width: 468px) {
    .ourteams__list__box {
@@ -81,10 +91,12 @@
    .ourteams__list__box__image {
       width: 111px;
       height: 136px;
+      display: block;
    }
    .ourteams__list__box__desc {
       max-width: 134px;
       min-width: 50px;
+  
    }
    .ourteams__list__box__image>img {
       width: 100%;
@@ -99,13 +111,5 @@
 }
 
 @media(max-width: 320px) {
-   .ourteams__list__box__image {
-      display: none;
-   }
-   .ourteams__list__box {
-      padding: 0 ;
-      display: flex;
-      justify-content: center;
-      align-items: center
-   }
+
 }

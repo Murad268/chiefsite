@@ -115,6 +115,16 @@ body {
 .back {
    display: none;
 }
+@media(max-width: 1475px) {
+   .container {
+      padding: 30px;
+   }
+}
+@media(max-width: 992px) {
+   .container {
+      padding: 0px;
+   }
+}
 @media(max-width: 468px) {
    .page {
       font-size: 40px;
