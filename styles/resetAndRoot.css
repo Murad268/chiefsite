@@ -108,8 +108,7 @@ body {
    display: none;
 }
 .page__link> .container {
-  margin-bottom: 40px !important;
-  padding-bottom: 0;
+
  
    height: max-content !important;
 }
