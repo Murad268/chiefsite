@@ -204,13 +204,13 @@
       width: 100%;
    }
    .header__body {
-      padding: 0;
+    
       width: max-content;
-      margin: 70px auto 0 auto !important;
+      margin-top: 70px auto 0 auto !important;
+      padding-left: 0;
+      padding-bottom: 30px;
    }
-   .header__body__title br {
-      display: none;
-   }
+ 
    .header__img {
       display: block;
       width: 100%;

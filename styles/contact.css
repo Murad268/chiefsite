@@ -1,5 +1,40 @@
 
 
+.contact .contactUs__map {
+   width: max-content;
+ 
+}
+.contact .contactUs__map img{
+   width: 797px;
+   height: 374px;
+   object-fit: fill;
+   
+}
+@media(max-width: 992px) {
+   .contact .contactUs__map {
+      width: 100%;
+   
+   }
+   .contact .contactUs__map img {
+      width: 100% !important;
+   }
+
+}
+@media(max-width: 776px) {
+   .contact .contactUs__map {
+ 
+
+      overflow-x: scroll;
+      height: max-content;
+   }
+   .contact .contactUs__map img {
+      width: 797px !important;
+      height: 374px;
+      scrollbar-width: none; 
+      -ms-overflow-style: none;
+    
+   }
+}
 @media(max-width: 468px) {
    .contact .contactUs__wrapper {
       display: flex;
@@ -13,20 +48,10 @@
       margin: 0;
       padding: 20px 20px;
    }
-   .contact .contactUs__map>div{
-      display: none !important;
-   }
+
 
    .contact .contactUs> .container {
       padding: 0;
    }
-   .contact .contactUs__map {
-      display: block !important;
-      height: 374px;
-      width: 100% !important;
-      padding: 0;
-   }
-   .contact .contactUs__map>img {
-      object-fit: fill !important;
-   }
+
 }
