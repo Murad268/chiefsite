@@ -11,6 +11,9 @@
    
 }
 @media(max-width: 992px) {
+   .contactUs> .container {
+      padding: 0 !important;
+   }
    .contact .contactUs__map {
       width: 100%;
    
@@ -18,9 +21,10 @@
    .contact .contactUs__map img {
       width: 100% !important;
    }
-
+  
 }
 @media(max-width: 776px) {
+
    .contact .contactUs__map {
  
 

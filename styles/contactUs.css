@@ -79,6 +79,9 @@
    .contactUs__map__img {
       width: 100%;
    }
+   .contactUs .contactUs__contacts {
+      padding: 20px 20px !important;
+   }
 }
 @media(max-width: 776px) {
    .contactUs__map {
