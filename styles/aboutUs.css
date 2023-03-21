@@ -3,8 +3,6 @@
    padding-top: 144px;
    padding-bottom: 150px;
 }
-
-
 .aboutUs__wrapper {
    display: flex;
    justify-content: space-between;
@@ -68,11 +66,8 @@
       padding-bottom: 60px;
    }
    .aboutUs__footer {
-
       padding-left: 20px;
-
    }
-
 }
 @media(max-width: 768px) {
    .aboutUs__left {
@@ -80,7 +75,11 @@
    }
    .aboutUs__right {
       width: 70%;
-      
+   }
+}
+@media(max-width: 600px) {
+   .aboutUs__right {
+      width: 100%;
    }
 }
 @media(max-width: 468px) {
@@ -104,13 +103,11 @@
    }
    .aboutUs__footer {
       flex-direction: column;
-
    }
 
    .aboutUs__footer__more {
       padding: 0;
       width: 100%;
-   
       margin-top: 40px;
       margin: 0 auto;
    }

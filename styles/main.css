@@ -8,13 +8,13 @@
 @import "footer.css";
 @import "pageAbout.css";
 @import "pageServices.css";
-@import "pageProducts.css";
 @import "service.css";
 @import "product.css";
 @import "ourteams.css";
 @import "ourteam.css";
 @import "contact.css";
 @import "privacy.css";
+@import "products.css";
 .container {
    max-width: 1376.9px;
    margin: 0 auto;

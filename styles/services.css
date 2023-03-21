@@ -123,14 +123,8 @@
    .services__top {
       width: 100%;
    }
-   .services .slick-list {
-      padding-left: 60px !important;
-   }
-   .services .slick-slide {
-      width: 205px !important;
-      height: 262.79px !important;
-   
-   }
+
+
    .services {
       padding-bottom: 90.21px;
    }
@@ -140,5 +134,9 @@
    .services__button>a {
       width: 100%;
    }
- 
+   .services .slick-list {
+   
+      padding: 0 !important;
+      width: 100%;
+    }
 }

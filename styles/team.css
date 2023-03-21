@@ -52,6 +52,9 @@
 .team .see__link {
    text-align: right;
    margin-top: 31.44px;
+   display: block;
+   width: 100% !important;
+   text-align: right;
 }
 @media(max-width: 992px) {
    .team__title {
@@ -69,6 +72,11 @@
    }
    .see__link {
       margin-right: 20px;
+   }
+}
+@media(max-width: 768px) {
+   .team .see__link {
+      text-align: center;
    }
 }
 @media(max-width: 468px) {
