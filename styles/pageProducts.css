@@ -38,11 +38,16 @@
 @media(max-width: 992px) {
    .products__list__wrapper {
       grid-template-columns: repeat(2, 1fr) !important;
+      padding: 10px !important;
    }
+}
+@media(max-width: 768px) {
+
 }
 @media(max-width: 468px) {
    .products__list__wrapper {
       grid-template-columns: repeat(1, 1fr) !important;
+      padding: 0;
    }
    .products__list__box {
       display: none;

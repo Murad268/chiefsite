@@ -3,7 +3,7 @@
    padding-top: 10px;
    width: 100%;
    background-image: url(../assets/images/header/Frame\ 1.png);
-
+   padding-top: 30px;
    background-repeat: no-repeat;
    background-size: cover;
 }
@@ -290,7 +290,11 @@
    }
 
 }
-
+@media(max-width: 468px) {
+   .header .container {
+      padding: 0;
+   }
+}
 @media(max-width: 320px) {
    .header__body__title {
       font-size: 30px;

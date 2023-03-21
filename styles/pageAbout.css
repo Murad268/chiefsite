@@ -195,6 +195,9 @@
 
 
  @media(max-width: 1200px) {
+  .history {
+    padding: 10px;
+  }
   .whoAreWe__wrapper, .whatWeDo__wrapper {
     flex-direction: column;
     row-gap: 25px;
@@ -232,7 +235,9 @@
   }
  }
  @media(max-width: 468px) {
-
+  .history {
+    padding: 0;
+  }
   .whoAreWe__left__desc, .whatWeDo__right__desc {
     width: 100%;
   }

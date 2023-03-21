@@ -123,4 +123,12 @@
    .services {
       padding-bottom: 90.21px;
    }
+   .services__button {
+      padding-left: 0;
+   }
+   .services__button>a {
+      display: block;
+      width: 100%;
+      text-align: center;
+   }
 }

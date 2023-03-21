@@ -67,8 +67,11 @@
    display: none;
 }
 @media(max-width: 1200px) {
+   .contactUs__wrapper {
+      column-gap: 20px
+   }
    .contactUs__contacts {
-    
+      
       width: max-content;
       margin: 0;
       padding: 0 !important;
