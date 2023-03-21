@@ -127,6 +127,9 @@ body {
    .custom__subtitle {
       font-size: 44px;
    }
+   .page__link {
+      padding-left: 10px;
+   }
    .page__link > .container>a, .page__link > .container>img {
       font-size: 16px;
       line-height: 24px;
