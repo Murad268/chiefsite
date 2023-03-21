@@ -79,7 +79,8 @@
       width: 100%;
    }
    .aboutUs__right {
-      height: 455px;
+      width: 70%;
+      
    }
 }
 @media(max-width: 468px) {

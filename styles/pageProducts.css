@@ -69,3 +69,21 @@
       margin: 40.12px auto 0 auto;
    }
 }
+
+@media(max-width: 320px) {
+   .products__list__box {
+      height: 291.88px !important;
+   }
+   .products__list__box>img {
+      width: 80%;
+      height: 162.08px;
+      object-fit: contain;
+   }
+   .products__list .container {
+      padding: 0 10px !important;
+   }
+   .products__list__box__text {
+      bottom: 20px !important;
+      font-size: 25px !important;
+   }
+}

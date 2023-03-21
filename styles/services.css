@@ -38,10 +38,12 @@
 .services .slick-slide {
    position: relative;
    width: 100%;
-   margin: 0 10px;
+   margin: 0 10px !important;
+  
 }
 .services .slick-slide>img {
    width: 100%;
+   height: 100%;
    object-fit: fill;
 }
 .slider__image__box {
@@ -94,13 +96,15 @@
    .services__button {
       padding-left: 20px;
    }
-   .services .slick-slide {
-      margin: 10px ;
-   }
+
 }
 @media(max-width: 660px) {
    .team__slider__box__image {
       width: 400px;
+   }
+   .slider__image__box {
+      font-size: 22px;
+      line-height: 26px;
    }
 }
 @media(max-width: 468px) {
@@ -119,8 +123,13 @@
    .services__top {
       width: 100%;
    }
+   .services .slick-list {
+      padding-left: 60px !important;
+   }
    .services .slick-slide {
-      margin: 0;
+      width: 205px !important;
+      height: 262.79px !important;
+   
    }
    .services {
       padding-bottom: 90.21px;
@@ -131,4 +140,5 @@
    .services__button>a {
       width: 100%;
    }
+ 
 }

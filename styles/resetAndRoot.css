@@ -66,7 +66,7 @@ body {
    line-height: 105px;
    text-align: center;
    color: var(--white--text);
-   margin-top: 54px;
+   margin-top: 84px;
 }
 .custom__subtitle {
    font-family: 'Sofia Pro';
@@ -117,6 +117,9 @@ body {
 }
 
 @media(max-width: 468px) {
+   .page {
+      margin-top: 51px;
+   }
    .container {
       padding: 0px !important;
    }
