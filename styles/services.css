@@ -14,6 +14,8 @@
 .services__button>a {
    background: var(--black--green);
    color: var(--white--text);
+   width: 202px;
+   height: 53px;
 }
 
 .services__slider {
@@ -127,8 +129,6 @@
       padding-left: 0;
    }
    .services__button>a {
-      display: block;
       width: 100%;
-      text-align: center;
    }
 }

@@ -17,11 +17,15 @@
 .aboutUs__footer {
    margin-top: 30px;
    padding-left: 115px;
+   display: flex;
+   align-items: center;
 }
 .aboutUs__footer__more {
    background: var(--black--green);
    color: var(--white--text);
    margin-right: 30px;
+   width: 202px;
+   height: 53px;
 }
 .aboutUs__desc {
    padding-left: 115px;
@@ -65,18 +69,10 @@
    }
    .aboutUs__footer {
 
-      width: 100% !important;
-      padding: 0;
-      margin: 0;
+      padding-left: 20px;
+
    }
-   .aboutUs__footer__more {
-      display: block;
-      width: max-content;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      margin: 0 auto;
-   }
+
 }
 @media(max-width: 768px) {
    .aboutUs__left {
@@ -105,24 +101,20 @@
       line-height: 24px;
       width: 100%;
    }
-   .aboutUs__footer__more, .custom__links {
-      display: block;
-      width: max-content;
+   .aboutUs__footer {
+      flex-direction: column;
+
    }
+
    .aboutUs__footer__more {
       padding: 0;
       width: 100%;
-      display: flex;
-      justify-content: center;
-      align-items: center;
+   
       margin-top: 40px;
+      margin: 0 auto;
    }
    .aboutUs__footer__videoLink {
-      color: var(--black--green);
-      text-align: center;
-      width: max-content;
-      margin: 0 auto;
-      margin-top: 40px;
+      margin-top: 30px;
    }
    .aboutUs__footer {
       padding: 0;

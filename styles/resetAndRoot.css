@@ -22,10 +22,10 @@ body {
    font-style: normal;
    font-weight: 300;
    font-size: 24px;
-   width: 202px;
-   height: 53px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
    border-radius: 70px;
-   padding: 10px 38px;
 }
 .custom__links {
    font-family: 'Sofia Pro';
@@ -34,7 +34,7 @@ body {
    font-size: 24px;
    line-height: 36px;
    text-decoration: underline;
-   color: var(--white--text)
+   color: var(--black--green) !important
 }
 
 
@@ -47,6 +47,7 @@ body {
    color: var(--white--brown);
    text-decoration: none !important;
    border: none;
+ 
 }
 .see__link {
    font-family: 'Sofia Pro';
@@ -80,7 +81,7 @@ body {
    width: 37.857143402099645px;
    position: fixed;
    bottom: 96px;
-   right: 20px;
+   right: 45px;
    background: white;
    border-radius: 100%;
    cursor: pointer;
@@ -107,16 +108,18 @@ body {
    display: none;
 }
 @media(max-width: 1475px) {
+   .up {
+      right: 20px;
+   }
    .container {
       padding: 20px;
    }
 }
-@media(max-width: 992px) {
-   .container {
-      padding: 0px;
-   }
-}
+
 @media(max-width: 468px) {
+   .container {
+      padding: 0px !important;
+   }
    .page {
       font-size: 40px;
       line-height: 40px;

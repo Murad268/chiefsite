@@ -110,11 +110,15 @@
 }
 .header__body__footer {
    margin-top: 30px;
+   display: flex;
+   align-items: center;
 }
 .header__body__footer__more {
    background: var(--white--brown);
    color: var(--white--text);
    margin-right: 30px;
+   width: 202px !important;
+   height: 53px !important;
 }
 .header__body__footer__videolink {
    color: var(--white--text);
@@ -198,7 +202,6 @@
       width: 100%;
    }
    .header__body {
-
       padding: 0;
       width: max-content;
       margin: 70px auto 0 auto !important;
@@ -277,13 +280,14 @@
       display: flex;
       flex-direction: column;
       row-gap: 30px;
-     
+      align-items: flex-start
    }
    .header__body__footer__more {
       width: max-content;
       height: 53px;
       font-size: 24px;
-      display: block;
+      margin: 0;
+    
    }
    .header__body__footer__videolink {
       font-size: 24px;
