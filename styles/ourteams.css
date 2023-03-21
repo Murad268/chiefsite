@@ -37,7 +37,9 @@
 
    color: var(--white--text)
 }
-
+.see__link__team {
+   display: none;
+}
 .ourteams__list__box__desc__body {
    font-family: 'Sofia Pro';
    font-style: normal;
@@ -72,6 +74,18 @@
 @media(max-width: 468px) {
    .ourteams__list__box {
       padding: 0 30px 0 31.93px;
+   }
+   .see__link__team {
+      display: block;
+      font-family: 'Sofia Pro';
+      font-style: normal;
+      font-weight: 300;
+      font-size: 24px;
+      line-height: 36px;
+      color: var(--black--green);
+      text-align: center;
+      text-decoration-line: underline;
+      margin: 40px auto 0 auto;
    }
    .ourteams__list {
       padding-bottom: 100px;
