@@ -131,7 +131,7 @@ body {
 @media(max-width: 468px) {
    .page__link> .container {
 
-
+      margin-top: 20px !important;
       margin-bottom: 40px !important;
    }
    .page {
