@@ -115,8 +115,9 @@ body {
 }
 .page__link> .container {
 
- 
+   
    height: max-content !important;
+   margin-bottom: 91px !important;
 }
 @media(max-width: 1475px) {
    .up {
@@ -128,6 +129,11 @@ body {
 }
 
 @media(max-width: 468px) {
+   .page__link> .container {
+
+
+      margin-bottom: 40px !important;
+   }
    .page {
       margin-top: 51px;
    }
