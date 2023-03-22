@@ -103,7 +103,12 @@
       width: 100%;
       padding: 0 !important;
    }
-   
+   .contactUs__map {
+      margin-bottom: -5px;
+   }
+   .contactUs__map::-webkit-scrollbar {
+      display: none;
+  }
  
    .contactUs__contacts {
       width: 100%;
