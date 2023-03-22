@@ -6,7 +6,6 @@
    line-height: 24px;
    color: var(--black--green);
 }
-
 .actived__link {
    font-weight: 700;
 }
@@ -42,7 +41,6 @@
    margin-top: 40px;
    width: 563px;
 }
-
 .whatWeDo__left {
    width: 736px;
    height: 492px;
@@ -52,8 +50,6 @@
    height: 100%;
    object-fit: fill;
 }
-
-
 .about__us__custom__subtitle {
    margin-bottom: 60px;
 }
@@ -74,8 +70,6 @@
   width: 470px;
   height: 800px;
 }
-
-
 .history__date {
   font-weight: 700;
   font-size: 70px;
@@ -126,7 +120,6 @@
   column-gap: 32px;
   align-items: flex-start;
 }
-
 .box__sectype__top {
   width: 100%;
   padding-bottom: 70px;
@@ -183,17 +176,6 @@
 
 
 
-
-
-
-
-
-
-
-
-
-
-
  @media(max-width: 1200px) {
   .history {
     padding: 10px;
@@ -231,7 +213,6 @@
   }
   .whoAreWe__right {
     width: 100%;
-    
   }
  }
  @media(max-width: 468px) {
@@ -254,7 +235,6 @@
   }
   .page__link > .container {
     margin-bottom: 40px;
-    
   }
   .whatWeDo__left>img {
     width: 100%;
@@ -276,7 +256,6 @@
     width: 146.45px !important;
   }
   .history__desc__body {
-
     font-size: 8.16422px;
     line-height: 12px;
   }
@@ -287,9 +266,7 @@
     top: 45.8%;
   } 
   .box__sectype__bottom .hr {
-
     height: 115px;
-   
   }
 }
 
@@ -303,5 +280,4 @@
  .whoAreWe>.container {
   padding-bottom: 0;
  }
-
 }
