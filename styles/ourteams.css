@@ -1,131 +1,116 @@
-.ourteams__list {
-   padding-bottom: 160.44px;
-}
-.ourteams__list__box {
+.ourteams__box {
+   background-color: var(--black--green);
    height: 274.56px;
-   background: var(--black--green);
    border-radius: 39.9075px;
-   display: flex;
-   align-items: center;
-   justify-content: space-between;
-   padding: 0 30px 0 31.93px;
+   padding-top: 26px;
+   padding-left: 31.93px;
+   padding-right: 35px;
 }
-
-.ourteams__list__wrapper {
+.ourteams__box img {
+   width: 181px;
+   height: 222px;
+   object-fit: contain;
+}
+.ourteams__wrapper {
    display: grid;
-   grid-template-columns: repeat(3, 1fr);
-   column-gap: 20.64px;
-   row-gap: 20.44px;
+   grid-template-columns: repeat(auto-fit, minmax(349.36px, 1fr));
+   gap: 20.44px;
+   width: 100%;
 }
-
-
-
-.ourteams__list__box__desc {
-   font-family: 'Sofia Pro';
-   font-style: normal;
-   font-weight: 400;
-   font-size: 14px;
-   line-height: 26px;
-}
-
-.ourteams__list__box__desc__title {
+.ourteams__box__desc__title {
    font-family: 'Sofia Pro';
    font-style: normal;
    font-weight: 600;
    font-size: 24px;
    line-height: 26px;
-
    color: var(--white--text)
 }
-.see__link__team {
-   display: none;
-}
-.ourteams__list__box__desc__body {
+.ourteams__box__desc__text {
+   margin-top: 21.89px;
    font-family: 'Sofia Pro';
    font-style: normal;
    font-weight: 400;
    font-size: 14px;
    color: var(--white--text);
-   margin-top: 21.89px;
+   line-height: 26px;
 }
-@media(max-width: 1300px) {
-   .ourteams__list__box__image {
-      display: none;
-   }
-   .ourteams__list__box {
-      padding: 0 ;
-      display: flex;
-      justify-content: center;
-      align-items: center
-   }
-   .ourteams__list__box {
-      padding: 0 0 0 20px;
-   }
+.ourteams__box__wrapper {
+   display: flex;
+   align-items: center;
+   width: 100%;
+   justify-content: space-between;
 }
-@media(max-width: 992px) {
+.ourteams__box__desc {
+   min-width: 184.37px;
+}
+.ourteams {
+   padding-bottom: 160.44px;
+}
 
-   .ourteams__list__wrapper {
-      grid-template-columns: repeat(2, 1fr);
-      padding: 10px;
-   }
- 
-
-}
 @media(max-width: 468px) {
-   .ourteams__list__box {
-      padding: 0 30px 0 31.93px;
-   }
-   .see__link__team {
-      display: block;
-      font-family: 'Sofia Pro';
-      font-style: normal;
-      font-weight: 300;
+
+   .ourteams__box__desc__title {
       font-size: 24px;
-      line-height: 36px;
-      color: var(--black--green);
-      text-align: center;
-      text-decoration-line: underline;
-      margin: 40px auto 0 auto;
-   }
-   .ourteams__list {
-      padding-bottom: 100px;
-   }
-   .ourteams__list__wrapper {
-      padding: 0;
-      grid-template-columns: repeat(1, 1fr);
-   }
-   .ourteams__list__box__desc__title {
+      line-height: 26px;
       font-size: 16px;
       line-height: 16px;
    }
-   .ourteams__list__box__desc__body {
-      font-size: 10px;
-      line-height: 16px;
-      max-width: 134px;
-      min-width: 50px;
-   }
-   .ourteams__list__box__image {
+   .ourteams__box img {
       width: 111px;
       height: 136px;
-      display: block;
+      object-fit: contain;
    }
-   .ourteams__list__box__desc {
-      max-width: 134px;
-      min-width: 50px;
-  
-   }
-   .ourteams__list__box__image>img {
-      width: 100%;
-      height: 100%;
-      object-fit: fill;
-   }
-   .ourteams__list__box {
-      width: 100%;
+   .ourteams__box {
       height: 194px;
-      padding-right: 10px;
+      padding-top: 29px;
+      width: 100%;
+   }
+   .ourteams__box__desc__text {
+      font-size: 10px;
+      line-height: 16px;
+    
+      width: 132px;
+   }
+
+   .ourteams {
+      padding-top: 31px;
+      padding-bottom: 100px;
+   }
+ 
+   .ourteams__box__desc {
+      min-width: 0;
    }
 }
+@media(max-width: 420px) {
+   .ourteams__box  { 
+      margin-top: 20px;  
+      padding-right: 15px;
+   }
+   .ourteams__wrapper {
+      display: block;
+   }
+ 
 
-@media(max-width: 320px) {
+  
+}
 
+@media(max-width: 310px) {
+   .ourteams__box img {
+      display: none;
+   }
+   .ourteams__box {
+      padding: 0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+ 
+   }
+   .ourteams__box__desc {
+      width: 70%;
+      margin: 0 auto;
+   }
+   .ourteams__box__desc__text {
+      width: 100%;
+   }
+   
 }
