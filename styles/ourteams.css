@@ -7,9 +7,9 @@
    padding-right: 35px;
 }
 .ourteams__box img {
-   width: 181px;
+   width: 161px;
    height: 222px;
-   object-fit: contain;
+   object-fit: fill;
 }
 .ourteams__wrapper {
    display: grid;
