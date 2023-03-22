@@ -27,7 +27,7 @@
 
    .contact .contactUs__map {
  
-
+      
       overflow-x: scroll;
       height: max-content;
    }
@@ -37,6 +37,9 @@
       scrollbar-width: none; 
       -ms-overflow-style: none;
     
+   }
+   .contact .contactUs__map::-webkit-scrollbar {
+      display: none;
    }
 }
 @media(max-width: 468px) {
