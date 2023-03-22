@@ -2,9 +2,15 @@
    margin: 0;
    padding: 0;
    box-sizing: border-box;
-   /* border: 1px solid red; */
-   user-select: none;
+   -webkit-user-drag: none;
+   -webkit-user-select: none;
+   -moz-user-select: none;
+   -ms-user-select: none;
+   user-select: none; 
+   
+    
 }
+
 ul, ol {
    list-style-type: none;
 }

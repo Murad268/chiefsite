@@ -125,43 +125,47 @@
             </div>
          </div>
          <div class="services__slider">
-            <div class="slider">
-               <a href="./service.html">
-                  <div class="slider__image__box">
-                     Lorem ipsum
-                  </div>
-                  <img src="./assets/images/services/products.png">
-               </a>
-               <a href="./service.html">
-                  <div class="slider__image__box">
-                     Lorem ipsum
-                  </div>
-                  <img src="./assets/images/services/products.png">
-               </a>
-               <a href="./service.html">
-                  <div class="slider__image__box">
-                     Lorem ipsum
-                  </div>
-                  <img src="./assets/images/services/products.png">
-               </a>
-               <a href="./service.html">
-                  <div class="slider__image__box">
-                     Lorem ipsum
-                  </div>
-                  <img src="./assets/images/services/products.png">
-               </a>
-               <a href="./service.html">
-                  <div class="slider__image__box">
-                     Lorem ipsum
-                  </div>
-                  <img src="./assets/images/services/products.png">
-               </a>
-               <a href="./service.html">
-                  <div class="slider__image__box">
-                     Lorem ipsum
-                  </div>
-                  <img src="./assets/images/services/products.png">
-               </a>
+            <button type="button" class="slider__arrow team__slider__arrow--prev"><i class="fa fa-angle-right"></i></button>
+            <button type="button" class="slider__arrow slider__arrow--next"><i class="fa fa-angle-left"></i></button>
+            <div class="slide__wrapper">
+               <div class="slider">
+                  <a href="./service.html">
+                     <div class="slider__image__box">
+                        Lorem ipsum
+                     </div>
+                     <img src="./assets/images/services/products.png">
+                  </a>
+                  <a href="./service.html">
+                     <div class="slider__image__box">
+                        Lorem ipsum
+                     </div>
+                     <img src="./assets/images/services/products.png">
+                  </a>
+                  <a href="./service.html">
+                     <div class="slider__image__box">
+                        Lorem ipsum
+                     </div>
+                     <img src="./assets/images/services/products.png">
+                  </a>
+                  <a href="./service.html">
+                     <div class="slider__image__box">
+                        Lorem ipsum
+                     </div>
+                     <img src="./assets/images/services/products.png">
+                  </a>
+                  <a href="./service.html">
+                     <div class="slider__image__box">
+                        Lorem ipsum
+                     </div>
+                     <img src="./assets/images/services/products.png">
+                  </a>
+                  <a href="./service.html">
+                     <div class="slider__image__box">
+                        Lorem ipsum
+                     </div>
+                     <img src="./assets/images/services/products.png">
+                  </a>
+               </div>
             </div>
          </div>
       </div>
@@ -359,43 +363,64 @@
    </footer>
    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+   <script src="./script/slider.js"></script>
    <script src="./script/script.js"></script>
    <script>
           if(window.innerWidth<468) {
             document.querySelector(".header__img img").src = './assets/images/header/d0d79678bde22f01166c8159970ffe83 1.png';
          }
-      $('.services__slider .slider').slick({
-         infinite: true,
-         slidesToShow: 4,
-         centerMode: false,
-         slidesToScroll: 1,
 
-         prevArrow: '<button type="button" class="slider__arrow slider__arrow--prev"><i class="fa fa-angle-right"></i></button>',
-         nextArrow: '<button type="button" class="slider__arrow slider__arrow--next"><i class="fa fa-angle-left"></i></button>',
-         responsive: [
-            {
-               breakpoint: 1100,
-               settings: {
-                  slidesToShow: 3,
-                  arrows: false
-               }
-            },
-            {
-               breakpoint: 992,
-               settings: {
-                  slidesToShow: 2,
-                  arrows: false
-               }
-            },
-            {
-               breakpoint: 468,
-               settings: {
-                  slidesToShow: 1,
-                  arrows: false
-               }
-            }
-         ]
-      });
+         const inner = document.querySelector(".slide__wrapper .slider");
+         const nextBtn = document.querySelector(".slider__arrow--next");
+         const prevBtn = document.querySelector(".team__slider__arrow--prev");
+         const width = document.querySelector(".slide__wrapper .slider a").clientWidth;
+         offset = 0;
+         function slideNext() {
+            offset+=width;
+            inner.style.transform = `translateX(-${offset}px)`  
+         }
+         function slidePrev() {
+            offset-=width;
+            inner.style.transform =  `translateX(-${offset}px)`
+         }
+         nextBtn.addEventListener("click", slideNext)
+         prevBtn.addEventListener("click", slidePrev)
+
+
+
+         historySlider(".services .slider")
+      // $('.services__slider .slider').slick({
+      //    infinite: true,
+      //    slidesToShow: 4,
+      //    centerMode: false,
+      //    slidesToScroll: 1,
+
+      //    prevArrow: '<button type="button" class="slider__arrow slider__arrow--prev"><i class="fa fa-angle-right"></i></button>',
+      //    nextArrow: '<button type="button" class="slider__arrow slider__arrow--next"><i class="fa fa-angle-left"></i></button>',
+      //    responsive: [
+      //       {
+      //          breakpoint: 1100,
+      //          settings: {
+      //             slidesToShow: 3,
+      //             arrows: false
+      //          }
+      //       },
+      //       {
+      //          breakpoint: 992,
+      //          settings: {
+      //             slidesToShow: 2,
+      //             arrows: false
+      //          }
+      //       },
+      //       {
+      //          breakpoint: 468,
+      //          settings: {
+      //             slidesToShow: 1,
+      //             arrows: false
+      //          }
+      //       }
+      //    ]
+      // });
 
 
 
