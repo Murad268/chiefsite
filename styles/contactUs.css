@@ -84,6 +84,12 @@
    }
 }
 @media(max-width: 776px) {
+   .contact {
+      padding-bottom: 0;
+   }
+   .contactUs__map {
+      margin-bottom: -5px;
+   }
    .contactUs__map {
      
 
@@ -103,9 +109,7 @@
       width: 100%;
       padding: 0 !important;
    }
-   .contactUs__map {
-      margin-bottom: -5px;
-   }
+ 
    .contactUs__map::-webkit-scrollbar {
       display: none;
   }
@@ -124,12 +128,7 @@
       margin-left: 23px;
    }
 
-   .contactUs__minimap {
-      display: block;
-      width: 100%;
-      padding: 0;
-      height: 374px;
-   }
+
    .contactUs__map__img {
  
       height: 100%;
@@ -137,11 +136,5 @@
    }
    .contactUs {
       padding-bottom: 0;
-   }
-}
-@media(max-width: 320px) {
-   .contactUs__minimap {
-  
-      height: 274px;
    }
 }

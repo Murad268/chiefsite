@@ -24,10 +24,12 @@
   
 }
 @media(max-width: 776px) {
-
+   .contactUs {
+      padding-bottom: 0;
+   }
    .contact .contactUs__map {
  
-      
+      margin-bottom: -10px;
       overflow-x: scroll;
       height: max-content;
    }
