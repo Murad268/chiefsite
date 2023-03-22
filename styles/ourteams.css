@@ -69,7 +69,7 @@
       font-size: 10px;
       line-height: 16px;
     
-      width: 132px;
+      
    }
 
    .ourteams {
@@ -80,6 +80,10 @@
    .ourteams__box__desc {
       min-width: 0;
    }
+   .ourteams__box__wrapper {
+
+      column-gap: 10px !important
+   }
 }
 @media(max-width: 420px) {
    .ourteams__box  { 
@@ -88,9 +92,10 @@
    }
    .ourteams__wrapper {
       display: block;
+
    }
  
-
+   
   
 }
 
