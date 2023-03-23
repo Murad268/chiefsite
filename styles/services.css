@@ -68,7 +68,7 @@
    height: 93.28px;
    padding-left: 27px;
 }
-.services .slider__arrow--next, .services .slider__arrow--prev {
+.slider__arrow--next, .slider__arrow--prev {
    position: absolute;
    top: -60.14px;
    right: 5px;
@@ -82,7 +82,7 @@
    cursor: pointer;
 
 }
-.services .slider__arrow--prev {
+.slider__arrow--prev {
    right: 57.14px !important;
    display: block;
 }
@@ -109,7 +109,7 @@
    }
 }
 @media(max-width: 468px) {
-   .services .slider__arrow--next, .services .team__slider__arrow--prev {
+   .services .slider__arrow--next, .services .slider__arrow--prev {
       display: none;
    }
    .slide__wrapper .slider a {

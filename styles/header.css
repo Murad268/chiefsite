@@ -5,8 +5,9 @@
    background-image: url(../assets/images/header/Frame\ 1.png);
    padding-top: 30px;
    background-repeat: no-repeat;
-   background-size: cover;
-
+   background-size: 100% 100%;
+   overflow: hidden;
+   border-radius: 0 0 40px 40px
 }
 
 .header__top__wrapper {
