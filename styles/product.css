@@ -36,6 +36,13 @@
    .product .custom__subtitle {
       margin-left: 20px;
    }
+   .product__image {
+      height: 226.63px;
+      width: 100%;
+   }
+   .product__image>img {
+      object-fit: contain;
+   }
 }
 
 @media(max-width: 468px) {
@@ -48,13 +55,7 @@
       padding-left: 0;
    }
 
-   .product__image {
-      height: 226.63px;
-      width: 100%;
-   }
-   .product__image>img {
-      object-fit: contain;
-   }
+ 
    .product {
       padding-bottom: 123.37px;
    }
