@@ -68,7 +68,7 @@
    height: 93.28px;
    padding-left: 27px;
 }
-.slider__arrow--next, .slider__arrow--prev {
+.slider__arrow--next, .slider__arrow--prev, .team__arrow__prev, .team__arrow__next {
    position: absolute;
    top: -60.14px;
    right: 5px;
@@ -82,9 +82,12 @@
    cursor: pointer;
 
 }
-.slider__arrow--prev {
+.slider__arrow--prev, .team__arrow__prev {
    right: 57.14px !important;
    display: block;
+}
+.team__arrow__prev, .team__arrow__next {
+   top: -115.14px;
 }
 @media(max-width: 1100px) {
    .services__title {
