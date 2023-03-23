@@ -42,8 +42,9 @@ body {
    text-decoration: underline;
    color: var(--black--green) !important
 }
-
-
+.header__body__footer__videolink {
+   color: var(--white--text) !important
+}
 .custom__title {
    font-family: 'Sofia Pro';
    font-style: normal;
@@ -124,7 +125,7 @@ body {
       right: 20px;
    }
    .container {
-      padding: 20px;
+      padding: 0 20px;
    }
 }
 
