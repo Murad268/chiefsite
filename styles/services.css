@@ -43,6 +43,7 @@
    right: 0;
    background: #000000;
    background-blend-mode: soft-light;
+   -webkit-background-blend-mode: soft-light;
    opacity: 0.7;
    backdrop-filter: blur(35px);
    border-radius: 0px 0px 30px 30px;
